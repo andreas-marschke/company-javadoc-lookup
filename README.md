@@ -20,5 +20,5 @@ Add add a hook to the java-mode-hook:
 (add-hook 'java-mode-hook
           (lambda ()
             (add-to-list (make-local-variable 'company-backends)
-                         'company-javadoc-lookup))
+                         'company-javadoc-lookup)))
 ```
